@@ -18,12 +18,6 @@
         }
     ],
     "routes": [
-        {
-            "src": ""
-        },
-        {
-            "src": "/(.*)",
-            "dest": "ToDoList/wsgi.py"
-        }
+    
     ]
 }
