@@ -22,11 +22,11 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = 'django-insecure-sx^5smg1ex4o8vu(czn-pr%my7h5f4n@)3w$yi2y7f#%+q8%m&'
 
-ALLOWED_HOSTS = ['django-api-wplu4-hvwiy5ddu-moinul75.vercel.app', '.now.sh']
+# ALLOWED_HOSTS = ['django-api-wplu4-hvwiy5ddu-moinul75.vercel.app', '.now.sh']
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*' 'django-api-wplu4-hvwiy5ddu-moinul75.vercel.app']
 
 
 # Application definition
