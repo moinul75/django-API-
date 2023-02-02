@@ -1,6 +1,6 @@
 
 
 echo " BUILD START"
-python3.10 -m pip install -r requirements.txt 
-python3.10 manage.py collections --noinput --clear
+python3 -m pip install -r requirements.txt 
+python3 manage.py collections --noinput --clear
 echo " BUILD END"
