@@ -9,6 +9,22 @@
                 "runtime": "python3"
             }
         },
-    
+        {
+            "src": "build_files.sh",
+            "use": "@vercel/static-build",
+            "config": {
+              
+            }
+        }
     ],
+    "routes": [
+        {
+            "src": "/static/(.*)",
+            "dest": "/static/$1"
+        },
+        {
+            "src": "/(.*)",
+            "dest": "ToDoList/wsgi.py"
+        }
+    ]
 }
